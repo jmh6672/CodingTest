@@ -43,25 +43,31 @@ public class Test1 {
         System.out.println(result);
     }
     
+    int answer;
+    int target;
+    int[] numbers;
 
     public int solution(int[] numbers, int target) {
-        int answer = 0;
-        answer = dfs(numbers, target, 0, 0);
+        answer = 0;
+        this.target = target;
+        this.numbers = numbers;
+
+        dfs(0, 0);
 
         return answer;
     }
 
     // 깊이 우선 탐색
-    public int dfs(int[] numbers, int target, int depth, int sum){
+    public void dfs(int depth, int sum){
         // 마지막 노드 까지 탐색한 경우
         if(depth == numbers.length){
             if(sum == target) {
-                return 1;
+                answer++;
             }
-            return 0;
+            return;
         } else {
-            return dfs(numbers, target, depth + 1, sum + numbers[depth] ) +
-                dfs(numbers, target, depth + 1, sum - numbers[depth]);
+            dfs(depth + 1, sum + numbers[depth]);
+            dfs(depth + 1, sum - numbers[depth]);
         }
     }
 }

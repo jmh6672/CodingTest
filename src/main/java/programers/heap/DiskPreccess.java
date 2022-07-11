@@ -43,11 +43,11 @@ import java.util.*;
  각 작업에 대해 작업의 소요시간은 1 이상 1,000 이하입니다.
  하드디스크가 작업을 수행하고 있지 않을 때에는 먼저 요청이 들어온 작업부터 처리합니다.
 * */
-public class Test2 {
+public class DiskPreccess {
     static final int EX_CNT = 10;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test2 test = new Test2();
+        DiskPreccess test = new DiskPreccess();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

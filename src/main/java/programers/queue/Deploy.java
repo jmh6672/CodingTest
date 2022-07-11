@@ -20,11 +20,11 @@ import java.util.*;
  배포는 하루에 한 번만 할 수 있으며, 하루의 끝에 이루어진다고 가정합니다. 예를 들어 진도율이 95%인 작업의 개발 속도가 하루에 4%라면 배포는 2일 뒤에 이루어집니다.
 
 * */
-public class Test1 {
+public class Deploy {
     static final int EX_CNT = 10;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test1 test = new Test1();
+        Deploy test = new Deploy();
         ObjectMapper objectMapper = new ObjectMapper();
 
         List<Integer> progresses = new ArrayList<>();

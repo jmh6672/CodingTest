@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-public class Test4 {
+public class MathImpossing {
     static final int CASE_COUNT = 1000000000;
     static final int CASE_COUNT_ARRAY = 100000;
 
@@ -25,7 +25,7 @@ public class Test4 {
      가장 높은 점수를 받은 사람이 여럿일 경우, return하는 값을 오름차순 정렬해주세요.
      * */
     public static void main(String[] args) {
-        Test4 test4 = new Test4();
+        MathImpossing test4 = new MathImpossing();
 
         List<Integer> times = new ArrayList<>();
 

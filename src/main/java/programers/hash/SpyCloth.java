@@ -2,7 +2,7 @@ package programers.hash;
 
 import java.util.*;
 
-public class Test3 {
+public class SpyCloth {
     static final int CASE_COUNT = 30;
 
     /**
@@ -27,7 +27,7 @@ public class Test3 {
      스파이는 하루에 최소 한 개의 의상은 입습니다.
      * */
     public static void main(String[] args) {
-        Test3 test3 = new Test3();
+        SpyCloth test3 = new SpyCloth();
 
         String[] categories = {"headgear","accessory","shoes","bottom","top"};
         List<String[]> clothes = new ArrayList<>();

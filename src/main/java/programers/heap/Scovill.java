@@ -20,11 +20,11 @@ import java.util.*;
  scoville의 원소는 각각 0 이상 1,000,000 이하입니다.
  모든 음식의 스코빌 지수를 K 이상으로 만들 수 없는 경우에는 -1을 return 합니다.
 * */
-public class Test1 {
+public class Scovill {
     static final int EX_CNT = 10;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test1 test = new Test1();
+        Scovill test = new Scovill();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

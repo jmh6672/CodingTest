@@ -2,7 +2,7 @@ package programers.hash;
 
 import java.util.*;
 
-public class Test2 {
+public class PhoneBook {
     static final int CASE_COUNT = 1000000;
 
     /**
@@ -20,7 +20,7 @@ public class Test2 {
      같은 전화번호가 중복해서 들어있지 않습니다.
      * */
     public static void main(String[] args) {
-        Test2 test2 = new Test2();
+        PhoneBook test2 = new PhoneBook();
 
         List<String> phoneBook = new ArrayList<>();
 

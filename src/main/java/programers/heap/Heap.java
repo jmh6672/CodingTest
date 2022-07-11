@@ -22,11 +22,11 @@ import java.util.*;
  원소는 “명령어 데이터” 형식으로 주어집니다.- 최댓값/최솟값을 삭제하는 연산에서 최댓값/최솟값이 둘 이상인 경우, 하나만 삭제합니다.
  빈 큐에 데이터를 삭제하라는 연산이 주어질 경우, 해당 연산은 무시합니다.
 * */
-public class Test3 {
+public class Heap {
     static final int EX_CNT = 10;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test3 test = new Test3();
+        Heap test = new Heap();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

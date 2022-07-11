@@ -23,11 +23,11 @@ import java.util.*;
  commands의 각 원소는 길이가 3입니다.
 
 * */
-public class Test6 {
+public class Sequence {
     static final int EX_CNT = 100;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test6 test = new Test6();
+        Sequence test = new Sequence();
         ObjectMapper objectMapper = new ObjectMapper();
 
         List<Integer> array = new ArrayList<>();

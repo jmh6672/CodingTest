@@ -16,11 +16,11 @@ import java.util.*;
  >  	이벤트 기간 동안 가장 많은 접속자 수 는 11 이 된다.
  >  ```
 * */
-public class Test1 {
-    static final int EX_CNT = 100000;
+public class Accessors {
+    static final int EX_CNT = 5;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test1 test = new Test1();
+        Accessors test = new Accessors();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 
@@ -29,7 +29,7 @@ public class Test1 {
         Integer k = random.nextInt(EX_CNT)+1;
 
         for(int i=0; i<EX_CNT; i++){
-            accessors.add(random.nextInt(10)+1);
+            accessors.add(random.nextInt(3)+1);
         }
 
         System.out.println("Test k : " + objectMapper.writeValueAsString(k));
@@ -51,17 +51,14 @@ public class Test1 {
     public int solution1(int k, int[] accessors) {
         int answer = 0;
 
-        int len = accessors.length - k+1;
-
-        int sum;
-        for(int i=0; i<len; i++){
-            sum = 0;
-            for(int j=i; j<k+i; j++){
-                sum += accessors[j];
-            }
-            if(sum > answer){
-                answer = sum;
-            }
+        int sum = 0;
+        for(int i=0; i<k; i++){
+            sum += accessors[i];
+            answer = sum;
+        }
+        for(int i=k; i<accessors.length; i++){
+            sum = sum - accessors[i-k] + accessors[i];
+            answer = Math.max(answer,sum);
         }
 
         return answer;

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
-public class Test1 {
+public class Marathon {
     static final int CASE_COUNT = 100000;
 
     /**
@@ -21,7 +21,7 @@ public class Test1 {
      * 참가자 중에는 동명이인이 있을 수 있습니다.
      * */
     public static void main(String[] args) {
-        Test1 test1 = new Test1();
+        Marathon test1 = new Marathon();
 
         List<String> participant = new ArrayList<>();
         List<String> completion = new ArrayList<>();

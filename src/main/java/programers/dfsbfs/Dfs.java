@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Test1 {
+public class Dfs {
     static final int CASE_COUNT = 10;
     /**
      문제 설명
@@ -23,7 +23,7 @@ public class Test1 {
      타겟 넘버는 1 이상 1000 이하인 자연수입니다.
      * */
     public static void main(String[] args) {
-        Test1 test1 = new Test1();
+        Dfs test1 = new Dfs();
 
         List<Integer> numbers = new ArrayList<>();
 

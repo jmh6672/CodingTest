@@ -26,17 +26,17 @@ import java.util.*;
  > ```
 
 * */
-public class Test3 {
-    static final int EX_CNT = 10;
+public class CoffeeOrders {
+    static final int EX_CNT = 5;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test3 test = new Test3();
+        CoffeeOrders test = new CoffeeOrders();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 
 
         List<Integer> coffee_times = new ArrayList<>();
-        int k = random.nextInt(5)+1;
+        int k = random.nextInt(3)+1;
 
         for(int i=0; i<EX_CNT; i++){
             coffee_times.add(random.nextInt(10)+1);
@@ -73,7 +73,7 @@ public class Test3 {
         List<Integer> endOrders = new ArrayList();
 
 
-        PriorityQueue<CoffeeOrder> readyCoffee = new PriorityQueue<>((a,b) -> a.endTime - b.endTime);
+        PriorityQueue<CoffeeOrder> readyCoffee = new PriorityQueue<>((a, b) -> a.endTime - b.endTime);
         int nextOrder = 1;
         int time = 0;
         do {

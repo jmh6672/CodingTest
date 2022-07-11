@@ -8,11 +8,11 @@ import java.util.*;
 /**
 
 * */
-public class Test7 {
+public class KeyPad {
     static final int EX_CNT = 10;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test7 test = new Test7();
+        KeyPad test = new KeyPad();
         ObjectMapper objectMapper = new ObjectMapper();
 
         List<Integer> array = new ArrayList<>();

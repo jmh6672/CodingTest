@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.*;
 
-public class Test1 {
+public class CoupledRemove {
     static final int CASE_COUNT = 10;
 
     /**
@@ -24,7 +24,7 @@ public class Test1 {
      의 순서로 문자열을 모두 제거할 수 있으므로 1을 반환합니다.
      * */
     public static void main(String[] args) throws JsonProcessingException {
-        Test1 test1 = new Test1();
+        CoupledRemove test1 = new CoupledRemove();
 
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();

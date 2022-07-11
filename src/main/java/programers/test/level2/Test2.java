@@ -2,7 +2,7 @@ package programers.test.level2;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import programers.hash.Test3;
+import programers.hash.SpyCloth;
 
 import java.util.*;
 
@@ -33,7 +33,7 @@ public class Test2 {
     public static void main(String[] args) throws JsonProcessingException {
         ObjectMapper objectMapper = new ObjectMapper();
 
-        Test3 test3 = new Test3();
+        SpyCloth test3 = new SpyCloth();
 
         String[] categories = {"headgear","accessory","shoes","bottom","top"};
         List<String[]> clothes = new ArrayList<>();

@@ -1,3 +1,5 @@
+package dfs;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -5,14 +7,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class Test2 {
+public class AICleaner {
     /**
-     * [2,1,3]
-     * [1,2,3]
-     * [3,2,3,6,4,5]
-     * [1,0,1,1,1]
-     * [1,0,1,1,1]
-     *
      * */
 
     int[] dx = {0,1,0,-1};

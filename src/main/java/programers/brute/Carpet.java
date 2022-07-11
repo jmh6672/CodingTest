@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.util.*;
 
-public class Test3 {
+public class Carpet {
     static final int CASE_COUNT = 10;
 
     /**
@@ -25,7 +25,7 @@ public class Test3 {
      24	24	[8, 6]
      * */
     public static void main(String[] args) throws JsonProcessingException {
-        Test3 test1 = new Test3();
+        Carpet test1 = new Carpet();
 
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();

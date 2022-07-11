@@ -40,11 +40,11 @@ import java.util.*;
  "alex"와 "bob"은 음식 세 종류를 주문했으며, "choi"는 두 종류를 주문했습니다. 따라서 오름차순 정렬하여 ["alex", "bob"]을 return하면 됩니다.
 
 * */
-public class Test4 {
+public class ManyOrders {
     static final int EX_CNT = 10;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test4 test = new Test4();
+        ManyOrders test = new ManyOrders();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

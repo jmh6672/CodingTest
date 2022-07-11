@@ -25,11 +25,11 @@ import java.util.stream.Collectors;
  모든 장르는 재생된 횟수가 다릅니다.
 
 * */
-public class Test4 {
+public class Jenre {
     static final int EX_CNT = 1000;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test4 test4 = new Test4();
+        Jenre test4 = new Jenre();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

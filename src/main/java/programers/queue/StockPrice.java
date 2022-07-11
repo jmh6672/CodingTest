@@ -22,11 +22,11 @@ import java.util.*;
  4초 시점의 ₩2은 1초간 가격이 떨어지지 않았습니다.
  5초 시점의 ₩3은 0초간 가격이 떨어지지 않았습니다.
 * */
-public class Test4 {
+public class StockPrice {
     static final int EX_CNT = 5;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test4 test = new Test4();
+        StockPrice test = new StockPrice();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

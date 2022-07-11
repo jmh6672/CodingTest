@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-public class Test2 {
+public class PieceOfPaper {
     static final int CASE_COUNT = 7;
 
     /**
@@ -20,7 +20,7 @@ public class Test2 {
      "013"은 0, 1, 3 숫자가 적힌 종이 조각이 흩어져있다는 의미입니다.
      * */
     public static void main(String[] args) {
-        Test2 test1 = new Test2();
+        PieceOfPaper test1 = new PieceOfPaper();
 
         List<Integer> numbers = new ArrayList<>();
 

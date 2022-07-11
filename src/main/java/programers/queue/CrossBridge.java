@@ -29,11 +29,11 @@ import java.util.*;
  truck_weights의 길이는 1 이상 10,000 이하입니다.
  모든 트럭의 무게는 1 이상 weight 이하입니다.
 * */
-public class Test3 {
+public class CrossBridge {
     static final int EX_CNT = 5;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test3 test = new Test3();
+        CrossBridge test = new CrossBridge();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

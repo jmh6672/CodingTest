@@ -25,11 +25,11 @@ import java.util.*;
  > 	랭킹페이지는 총 5회 변동되었다.
  > ```
 * */
-public class Test2 {
+public class RankingPage {
     static final int EX_CNT = 5;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test2 test = new Test2();
+        RankingPage test = new RankingPage();
         ObjectMapper objectMapper = new ObjectMapper();
         Random random = new Random();
 

@@ -30,11 +30,11 @@ import java.util.*;
  입출력 예 #2
  "abc"가 s[3]~ s[5]에서 한번 반복해서 나타나지만, s[6]~s[8]에서는 나타나지 않으므로 가장 짧은 주기는 전체 문자열의 길이인 9가 됩니다.
 * */
-public class Test5 {
+public class StringCycle {
     static final int EX_CNT = 4;
 
     public static void main(String[] args) throws JsonProcessingException {
-        Test5 test = new Test5();
+        StringCycle test = new StringCycle();
         ObjectMapper objectMapper = new ObjectMapper();
 
         StringBuffer sb = new StringBuffer();

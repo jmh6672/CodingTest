@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class Test1 {
+public class Immigration {
     static final int CASE_COUNT = 10000;
 
     static final int CASE_COUNT_ARRAY = 100000;
@@ -26,7 +26,7 @@ public class Test1 {
      심사관은 1명 이상 100,000명 이하입니다.
      * */
     public static void main(String[] args) {
-        Test1 test1 = new Test1();
+        Immigration test1 = new Immigration();
         Random random = new Random();
 
         List<Integer> times = new ArrayList<>();

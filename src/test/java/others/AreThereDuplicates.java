@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AreThereDuplicates {
     /**
-     * 두 개의 양수를 입력했을 떄, 자릿수가 같은지 확인해라
+     * 같은 값이 있는지 확
      * */
 
 
@@ -24,10 +24,8 @@ public class AreThereDuplicates {
             }
             map.put(c,cnt);
         }
-
         return answer;
     }
-
 
     @Test
     public void areThereDuplicatesTest(){

@@ -18,7 +18,7 @@ public class AveragePair {
 
         for(int i=1; i<numbers.length; i++){
             double totalAvg = (numbers[i-1] + numbers[i]) / 2.0;
-            if(totalAvg == avg){
+            if(totalAvg >= avg){
                 return true;
             }
         }

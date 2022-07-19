@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AreThereDuplicates {
     /**
-     * 같은 값이 있는지 확
+     * 같은 값이 있는지 확인
      * */
 
 

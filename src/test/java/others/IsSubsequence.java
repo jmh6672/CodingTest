@@ -9,23 +9,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class IsSubsequence {
     /**
-     * 두 개의 양수를 입력했을 떄, 자릿수가 같은지 확인해라
+     * 문자열을 입력했을 때 문자가 순서대로 모두 포함되는지 확인
      * */
 
 
     public boolean isSubsequence(String seq, String str) {
         boolean answer = false;
-
-        PriorityQueue<Character> pq = new PriorityQueue();
-        for(Character c:str.toCharArray()) {
-            if(pq.peek() == c){
-                pq.poll();
-            }
-        }
-
-        if(pq.size()<1){
-            answer = true;
-        }
 
 
         return answer;

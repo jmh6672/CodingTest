@@ -51,7 +51,7 @@ public class MLM {
     }
 
     @Test
-    public void isSubsequenceTest() throws JsonProcessingException {
+    public void 다단계_Test() throws JsonProcessingException {
         assertEquals(
                 mapper.writeValueAsString(new int[]{360, 958, 108, 0, 450, 18, 180, 1080}),
                 mapper.writeValueAsString(mlm(
